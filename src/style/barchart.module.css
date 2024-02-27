@@ -1,0 +1,131 @@
+.barChart{
+    position: relative;
+    left: 0px;
+}
+.chart>div>p{
+    position: relative;
+    left: -30px;
+    bottom:15px
+}
+.chart{
+    height: 37.5vh;
+    border-left: 1px  solid black;
+    border-bottom:1px solid black ;
+}
+.chart>div{
+    height: 55px;
+    border-bottom: 1px dashed gray;
+}
+.chart :nth-child(6){
+    border-bottom: none;
+}
+
+.bar>div>div{
+    position: absolute;
+    bottom: 30px;
+    width: 60px;
+}
+
+.online{
+    background-color: #DBCAE2;
+}
+.offline{
+    background-color: #522D5E;
+}
+.hybrid{
+    background-color: #A170B1;
+}
+.monday .online{
+    height: 30px;
+    left: 5px;
+}
+.monday .offline{
+    height: 60px;
+    left: 5px;
+}
+.monday .hybrid{
+    height: 90px;
+    left: 5px;
+}
+.tuesday .online{
+    height: 100px;
+    left: 95px;
+}
+.tuesday .offline{
+    height: 200px;
+    left: 95px;
+}
+.tuesday .hybrid{
+    height: 250px;
+    left: 95px;
+}
+.wednesday .online{
+    height: 100px;
+    left: 185px;
+}
+.wednesday .offline{
+    height: 200px;
+    left: 185px;
+}
+.wednesday .hybrid{
+    height: 230px;
+    left: 185px;
+}
+
+.thursday .online{
+    height: 50px;
+    left: 275px;
+}
+.thursday .offline{
+    height: 150px;
+    left: 275px;
+}
+.thursday .hybrid{
+    height: 200px;
+    left: 275px;
+}
+
+.friday .online{
+    height: 100px;
+    left: 365px;
+}
+.friday .offline{
+    height: 200px;
+    left: 365px;
+}
+.friday .hybrid{
+    height: 225px;
+    left: 365px;
+}
+
+.saturday .online{
+    height: 50px;
+    left: 455px;
+}
+.saturday .offline{
+    height: 100px;
+    left: 455px;
+}
+.saturday .hybrid{
+    height: 150px;
+    left: 455px;
+}
+
+.sunday .online{
+    height: 50px;
+    left: 545px;
+}
+.sunday .offline{
+    height: 100px;
+    left: 545px;
+}
+.sunday .hybrid{
+    height: 200px;
+    left: 545px;
+}
+
+.date{
+    margin-left: 15px;
+    display: flex;
+    gap: 50px;
+}

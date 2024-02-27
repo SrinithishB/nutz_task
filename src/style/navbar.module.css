@@ -1,0 +1,38 @@
+.navbar{
+    background-color: #160F1A;
+    min-width: 75px;
+    width: 5%;
+    height: 100vhr;
+}
+.navbar>ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+}
+.navbar>ul>li>a{
+    padding: 12px;
+    text-decoration: none;
+    color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9em;
+    line-height: 2em;
+}
+.navbar img{
+    width: 25px;
+    margin: 15px;
+}
+.active{
+    background-color: #4D3659;
+}
+.active::before{
+    content: '';
+    position: absolute;
+    display: block;
+    left: 0px;
+    background-color: #894D9E;
+    width: 5px;
+    height: 67px;
+}
